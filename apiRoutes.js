@@ -23,7 +23,7 @@ module.exports = (app) => {
         console.log(delNote);
         notes.splice((req.params.id - 1), 1)
         for (var i = 0; i < notes.length; i++) {
-        notes.id = i + 1
+        notes[i].id = i + 1
         }
         console.log(notes)
         res.json(notes)
