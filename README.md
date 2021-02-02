@@ -8,7 +8,10 @@ The note taker app allows the user to write, store, and delete notes through an 
 Technology used: Express, Node.js, JavaScript, HTML, CSS,  
 
 Deployed application: https://shrouded-waters-78841.herokuapp.com/  
-GitHub Repository: https://github.com/lauraaupert/Express-Note-Taker
+
+GitHub Repository: https://github.com/lauraaupert/Express-Note-Taker  
+
+![image](https://user-images.githubusercontent.com/73617474/106644425-17292800-6559-11eb-9dfd-0ef56d1c656b.png)
 
 
 ## TABLE OF CONTENTS
