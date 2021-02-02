@@ -19,7 +19,6 @@ module.exports = (app) => {
     app.delete("/api/notes/:id", function(req, res) {
         var delNote = req.params.id;
         
-
         console.log(delNote);
         notes.splice((req.params.id - 1), 1)
         for (var i = 0; i < notes.length; i++) {
@@ -27,22 +26,5 @@ module.exports = (app) => {
         }
         console.log(notes)
         res.json(notes)
-      
-        // for (var i = 0; i < characters.length; i++) {
-        //   if (chosen === characters[i].routeName) {
-        //     return res.json(characters[i]);
-        //   }
-        // }
-      
-        // return res.json(false);
-      
-
     })
 }
-//     let noteList = JSON.parse(fs.readFileSync('./db/db.json', 'utf8'));
-
-//     app.get("/api/notes", (req, res) => {
-//         return res.json(noteList);
-//     });
-
-// }
