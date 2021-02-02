@@ -11,7 +11,7 @@ Deployed application: https://shrouded-waters-78841.herokuapp.com/
 
 GitHub Repository: https://github.com/lauraaupert/Express-Note-Taker  
 
-![Alt text](Express-Note-Taker_Demo.gif) / ![](Express-Note-Taker_Demo.gif)
+![Alt text](Express-Note-Taker_Demo.gif)
 
 
 ## TABLE OF CONTENTS
