@@ -3,11 +3,12 @@
 
 ## DESCRIPTION
 
-The note taker app allows the user to write, store, and delete notes through an intuitive interface. The data input by the user is stored in a JSON and the backend is express. It is deployed on Heroku.
+The note taker app allows the user to write, store, and delete notes through an intuitive interface. The data input by the user is stored in a JSON file and the backend is express. It is deployed on Heroku.
 
 Technology used: Express, Node.js, JavaScript, HTML, CSS,  
 
-Deployed application: https://shrouded-waters-78841.herokuapp.com/
+Deployed application: https://shrouded-waters-78841.herokuapp.com/  
+GitHub Repository: https://github.com/lauraaupert/Express-Note-Taker
 
 
 ## TABLE OF CONTENTS
@@ -17,9 +18,9 @@ Deployed application: https://shrouded-waters-78841.herokuapp.com/
 [License](#LICENSE)  
 
 ## USER STORY AND REQUIREMENTS <a name="USER"></a>
-AS A user, I want to be able to write and save notes
-I WANT to be able to delete notes I've written before
-SO THAT I can organize my thoughts and keep track of tasks I need to complete
+AS A user, I want to be able to write and save notes\
+I WANT to be able to delete notes I've written before\
+SO THAT I can organize my thoughts and keep track of tasks I need to complete\
 
 Application allows users to create and save notes.
 
