@@ -7,7 +7,9 @@ module.exports = (app) => {
     })
 
     app.post("/api/notes", function(req, res) {
-    var newNote = req.body;
+    let newNote = req.body;
+    newNote.id = notes.length + 1;
+    
     
     notes.push(newNote)
     console.log(newNote);
